@@ -1,9 +1,6 @@
 Notes with Justin
 
 
-dashboard page, currently logged in etc what is “relevant information?”
-
-
 - "profile page" for horses  
 - over 100 members on staff
 - special events ('round up,' for just riding)
@@ -21,7 +18,7 @@ dashboard page, currently logged in etc what is “relevant information?”
 - 1 - 3 riders at a time, cleaning, filling stalls, maintaining barn and supplies (day progresses through hour block) - most of the day spent with/on horses
 - track pay / hours through app
 - heavy on mobile
-- really good, but not perfect wifi, thus the printing out of schedules/changes (if someones not on location, person should be somewhere with wifi anyway)
+- really good (but not perfect) wifi thus the printing out of schedules/changes (if someones not on location, person should be somewhere with wifi anyway)
 - not important for user to see ENTIRE schedule on default (but choice to see different times/peoples schedules) - as staff weekly view
     + weekly view with show days and times
     + daily view which horses and notes about things
