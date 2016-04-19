@@ -21,3 +21,7 @@ Opportunities;
 Threats;
     - There are other Horse Riding Therapy based organizations in the Austin area
     - dependent on grant money / state money
+    - currently no option for indoors riding during rainy weather
+
+
+
