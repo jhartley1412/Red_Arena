@@ -1,10 +1,15 @@
 $font-header:'Bitter', serif;
 $font-body:'Work Sans', 'PT Sans', sans-serif;
-$font-size-header: 1.172em;
-$font-size-body:1.417em;
+$font-size-headers:2.083em;
+$font-size-body: 1em;
 $line-height:2.083em;
 
 
 h1{
 	font-family: $font-header;
+	font-size: $font-size-headers;
+}
+p{
+	font-family:$font-body;
+	font-size:$font-size-body;
 }

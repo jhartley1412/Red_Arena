@@ -1,4 +1,137 @@
-$color-primary:#AF272C;
+//----------------------------PRIMARY SITE COLORS
+
+$color-primary:#851b1c;
+$color-primary-alt:#b22426;
 $color-secondary:#F2EDDD;
 $color-text:#2F131F;
 $color-attention:#419AE7;
+
+
+//----------------------------SECONDARY SITE COLORS, USED ONLY ON SCHEDULE PAGE
+
+$color-session:#8AD652;
+$color-todo:#B34D76;
+$color-event:#9028B4;
+
+//------------------------------------PRIMARY COLOR STYLING------------------------//
+
+.colors{
+	box-sizing:border-box;
+	overflow:hidden;
+
+	div{
+		width: 15%;
+	}
+
+
+	.red{
+		display:inline-block;
+		margin:2%;
+		text-align: center;
+		.circle{
+			background-color: $color-primary;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		
+		}
+	}
+	.red_alt{
+		display:inline-block;
+		margin:2%;
+		.circle{
+			background-color: $color-primary-alt;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+
+		}
+	}
+	.blue{
+		display:inline-block;
+		margin:2%;
+		.circle{
+			background-color: $color-attention;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+	.purple{
+		display:inline-block;
+		margin:2%;
+		.circle{
+			background-color: $color-text;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+	.beige{
+		display:inline-block;
+		margin:2%;
+		.circle{
+			background-color: $color-secondary;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+
+	//------------------------------------SECONDARY COLORS-----------------------------//
+	.session{
+		.circle{
+			background-color: $color-session;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+	.todo{
+		.circle{
+			background-color: $color-todo;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+	.event{
+		.circle{
+			background-color: $color-event;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+
+
+}//closing colors tag//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

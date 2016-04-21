@@ -1,2 +1,69 @@
+.colors {
+  box-sizing: border-box;
+  overflow: hidden; }
+  .colors div {
+    width: 15%; }
+  .colors .red {
+    display: inline-block;
+    margin: 2%;
+    text-align: center; }
+    .colors .red .circle {
+      background-color: #851b1c;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
+  .colors .red_alt {
+    display: inline-block;
+    margin: 2%; }
+    .colors .red_alt .circle {
+      background-color: #b22426;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
+  .colors .blue {
+    display: inline-block;
+    margin: 2%; }
+    .colors .blue .circle {
+      background-color: #419AE7;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
+  .colors .purple {
+    display: inline-block;
+    margin: 2%; }
+    .colors .purple .circle {
+      background-color: #2F131F;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
+  .colors .beige {
+    display: inline-block;
+    margin: 2%; }
+    .colors .beige .circle {
+      background-color: #F2EDDD;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
+  .colors .session .circle {
+    background-color: #8AD652;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%; }
+  .colors .todo .circle {
+    background-color: #B34D76;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%; }
+  .colors .event .circle {
+    background-color: #9028B4;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%; }
+
 h1 {
-  font-family: "Bitter", serif; }
+  font-family: "Bitter", serif;
+  font-size: 2.083em; }
+
+p {
+  font-family: "Work Sans", "PT Sans", sans-serif;
+  font-size: 1em; }
