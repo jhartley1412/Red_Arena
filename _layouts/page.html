@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<div class="side_bar">
+{% for side_link in site.pages %}
+	{% if side_link.pageTitle %}
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+			<a href="{{ side_link.permalink }}"> {{ side_link.pageTitle }} </a>
 
-</article>
+	{% endif %}
+
+{% endfor %}
+</div>
+
+
+	<h1> {{page.pageTitle}} </h1>
+
+{{content}}
