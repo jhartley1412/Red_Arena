@@ -2,10 +2,9 @@
   box-sizing: border-box;
   overflow: hidden; }
   .colors div {
-    width: 15%; }
+    width: 19%; }
   .colors .red {
     display: inline-block;
-    margin: 2%;
     text-align: center; }
     .colors .red .circle {
       background-color: #851b1c;
@@ -13,32 +12,28 @@
       width: 3em;
       border-radius: 50%; }
   .colors .red_alt {
-    display: inline-block;
-    margin: 2%; }
+    display: inline-block; }
     .colors .red_alt .circle {
       background-color: #b22426;
       height: 3em;
       width: 3em;
       border-radius: 50%; }
   .colors .blue {
-    display: inline-block;
-    margin: 2%; }
+    display: inline-block; }
     .colors .blue .circle {
       background-color: #419AE7;
       height: 3em;
       width: 3em;
       border-radius: 50%; }
   .colors .purple {
-    display: inline-block;
-    margin: 2%; }
+    display: inline-block; }
     .colors .purple .circle {
       background-color: #2F131F;
       height: 3em;
       width: 3em;
       border-radius: 50%; }
   .colors .beige {
-    display: inline-block;
-    margin: 2%; }
+    display: inline-block; }
     .colors .beige .circle {
       background-color: #F2EDDD;
       height: 3em;

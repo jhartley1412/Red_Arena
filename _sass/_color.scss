@@ -19,14 +19,15 @@ $color-event:#9028B4;
 	box-sizing:border-box;
 	overflow:hidden;
 
+
 	div{
-		width: 15%;
+		width: 19%;
 	}
 
 
 	.red{
 		display:inline-block;
-		margin:2%;
+	
 		text-align: center;
 		.circle{
 			background-color: $color-primary;
@@ -38,7 +39,7 @@ $color-event:#9028B4;
 	}
 	.red_alt{
 		display:inline-block;
-		margin:2%;
+		
 		.circle{
 			background-color: $color-primary-alt;
 			height: 3em;
@@ -49,7 +50,7 @@ $color-event:#9028B4;
 	}
 	.blue{
 		display:inline-block;
-		margin:2%;
+	
 		.circle{
 			background-color: $color-attention;
 			height: 3em;
@@ -59,7 +60,7 @@ $color-event:#9028B4;
 	}
 	.purple{
 		display:inline-block;
-		margin:2%;
+	
 		.circle{
 			background-color: $color-text;
 			height: 3em;
@@ -69,7 +70,7 @@ $color-event:#9028B4;
 	}
 	.beige{
 		display:inline-block;
-		margin:2%;
+	
 		.circle{
 			background-color: $color-secondary;
 			height: 3em;
