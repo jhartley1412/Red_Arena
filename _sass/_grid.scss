@@ -13,6 +13,13 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
   }
 }
 
+
+.grid{
+  width:50%;
+}
+
+
+
 .row {
   margin-top: 2em;
   overflow: hidden;

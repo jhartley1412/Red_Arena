@@ -19,6 +19,7 @@ $color-event:#9028B4;
 .colors{
 	box-sizing:border-box;
 	overflow:hidden;
+	margin:2%;
 
 
 	div{
@@ -28,7 +29,7 @@ $color-event:#9028B4;
 
 	.red{
 		display:inline-block;
-	
+		
 		text-align: center;
 		.circle{
 			background-color: $color-primary;
@@ -46,6 +47,7 @@ $color-event:#9028B4;
 			height: 3em;
 			width: 3em;
 			border-radius:50%;
+			
 
 		}
 	}
@@ -115,6 +117,7 @@ $color-event:#9028B4;
 //------------------------------------------BUTTONS STYLING---------------------------------//
 
 .button_color{
+	margin:2%;
 
 	:first-child{
 		display: inline-block;
@@ -150,6 +153,8 @@ $color-event:#9028B4;
 			padding-left:1.5em;
 			padding-right:1.5em;
 			border-radius: 4px;
+			border:1px solid $color-text;
+		}
 	
 		}
 	}
@@ -163,8 +168,8 @@ $color-event:#9028B4;
 			padding-left:1.5em;
 			padding-right:1.5em;
 			border-radius: 4px;
+
 		}
-	}
 
 }// end of button_color tag
 

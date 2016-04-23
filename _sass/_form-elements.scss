@@ -1,0 +1,108 @@
+$font-header:'Bitter', serif;
+$font-body:'Work Sans', 'PT Sans', sans-serif;
+$font-size-headers:2.083em;
+$font-size-body: 1em;
+$line-height:2.083em;
+
+$color-primary:#851b1c;
+$color-primary-alt:#b22426;
+$color-secondary:#F2EDDD;
+$color-text:#2F131F;
+$color-attention:#419AE7;
+$color-white:#ffffff;
+
+$color-session:#8AD652;
+$color-todo:#B34D76;
+$color-event:#9028B4;
+//------------------------------------------EXAMPLE SIDEBAR STYLING-------------------------------
+.form-nav{
+	box-sizing:border-box;
+	overflow:hidden;
+
+	.desk_nav_display{
+		display: inline-block;
+		background-color: $color-primary;
+		overflow: hidden;
+		margin:2%;
+
+		a{
+			font-family: $font-body;
+			text-decoration: none;
+			display: block;
+			color: $color-text;
+			padding:.2em;
+			background-color:$color-white;
+			display: inline-block;
+			margin: 2%;
+			padding-right:4em;
+		}
+		a:nth-of-type(5){
+			padding-bottom:5em;
+		}
+		p{
+			color: $color-secondary;
+			float:right;
+			margin:2%;
+
+		}
+		button{
+
+			background-color:$color-white;
+			padding: 0.2em;
+			padding-left:1.5em;
+			padding-right:1.5em;
+			border-radius: 4px;
+			color:$color-primary;
+			margin:2%;
+			border: 1px solid $color-text;
+		}
+
+
+	}//end of des_nav_display
+}//end of form nav tag
+
+.calendar{
+	.session_form{
+		background-color: $color-session;
+		display: inline-block;
+		padding:1em;
+
+		p{
+			background-color:$color-text;
+			color: $color-text;
+		}
+	}
+	.session_form{
+		background-color: $color-session;
+		display: inline-block;
+		padding:1em;
+
+		p{
+			background-color:$color-text;
+			color: $color-text;
+		}
+	}
+	.to_do{
+		background-color: $color-todo;
+		display: inline-block;
+		padding:1em;
+
+		p{
+			background-color:$color-text;
+			color: $color-text;
+		}
+	}
+	a:first-child{
+		color:$color-session;
+	}
+	a:nth-of-type(2){
+		color:$color-todo;
+	}
+
+
+}//-closing calendar tag
+
+
+
+
+

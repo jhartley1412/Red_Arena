@@ -2,10 +2,38 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import 'color',
+@import 'normalize',
+		'color',
 		'form-elements',
 		'grid',
 		'typography',
 		'breakpoint1',
 		'breakpoint2',
 		'breakpoint3';
+//--------------------------------------------home page styling------------------------
+.wrapper{
+
+	//-----------------------------------------navigation style-------------------
+	.site-nav{
+		box-sizing:border-box;
+		overflow:hidden;
+		
+		.trigger{
+			background-color:$color-primary;
+			padding-top: .5em;
+			padding-bottom:.5em;
+			.page-link{
+				margin:2%;
+				color: $color-secondary;
+				text-decoration: none;
+				font-size: 1em;
+				font-family: $font-header;
+			}
+		}
+	}//end of site-nav tag
+
+	.home_main{		
+	
+	}//end of home main
+
+}//end of wrapper tag
