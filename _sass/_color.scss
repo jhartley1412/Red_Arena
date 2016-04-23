@@ -5,6 +5,7 @@ $color-primary-alt:#b22426;
 $color-secondary:#F2EDDD;
 $color-text:#2F131F;
 $color-attention:#419AE7;
+$color-white:#ffffff;
 
 
 //----------------------------SECONDARY SITE COLORS, USED ONLY ON SCHEDULE PAGE
@@ -81,6 +82,7 @@ $color-event:#9028B4;
 
 	//------------------------------------SECONDARY COLORS-----------------------------//
 	.session{
+		display: inline-block;
 		.circle{
 			background-color: $color-session;
 			height: 3em;
@@ -89,6 +91,7 @@ $color-event:#9028B4;
 		}
 	}
 	.todo{
+		display: inline-block;
 		.circle{
 			background-color: $color-todo;
 			height: 3em;
@@ -97,6 +100,7 @@ $color-event:#9028B4;
 		}
 	}
 	.event{
+		display: inline-block;
 		.circle{
 			background-color: $color-event;
 			height: 3em;
@@ -108,7 +112,61 @@ $color-event:#9028B4;
 
 }//closing colors tag//
 
+//------------------------------------------BUTTONS STYLING---------------------------------//
 
+.button_color{
+
+	:first-child{
+		display: inline-block;
+		a{
+			background-color:$color-primary-alt;
+			text-decoration: none;
+			color:$color-secondary;
+			padding: 0.2em;
+			padding-left:1.5em;
+			padding-right:1.5em;
+			border-radius: 4px;
+		}
+	}
+	:nth-child(2){
+		display: inline-block;
+		a{
+			background-color:$color-primary;
+			text-decoration: none;
+			color:$color-secondary;
+			padding: 0.2em;
+			padding-left:1.5em;
+			padding-right:1.5em;
+			border-radius: 4px;
+		}
+	}
+	:nth-child(3){
+		display: inline-block;
+		a{
+			background-color:$color-white;
+			text-decoration: none;
+			color:$color-primary;
+			padding: 0.2em;
+			padding-left:1.5em;
+			padding-right:1.5em;
+			border-radius: 4px;
+	
+		}
+	}
+	:nth-child(4){
+		display: inline-block;
+		a{
+			background-color:$color-primary-alt;
+			text-decoration: none;
+			color:$color-secondary;
+			padding: 0.2em;
+			padding-left:1.5em;
+			padding-right:1.5em;
+			border-radius: 4px;
+		}
+	}
+
+}// end of button_color tag
 
 
 

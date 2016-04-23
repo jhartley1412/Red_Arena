@@ -13,3 +13,18 @@ p{
 	font-family:$font-body;
 	font-size:$font-size-body;
 }
+
+a{
+	font-family: $font-body;
+}
+
+.typography{
+	h2{
+		font-family: $font-header;
+		font-size: $font-size-headers;
+	}
+	h3{
+		font-family: $font-header;
+		font-size: $font-size-headers;
+	}
+}

@@ -39,22 +39,165 @@
       height: 3em;
       width: 3em;
       border-radius: 50%; }
-  .colors .session .circle {
-    background-color: #8AD652;
-    height: 3em;
-    width: 3em;
-    border-radius: 50%; }
-  .colors .todo .circle {
-    background-color: #B34D76;
-    height: 3em;
-    width: 3em;
-    border-radius: 50%; }
-  .colors .event .circle {
-    background-color: #9028B4;
-    height: 3em;
-    width: 3em;
-    border-radius: 50%; }
+  .colors .session {
+    display: inline-block; }
+    .colors .session .circle {
+      background-color: #8AD652;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
+  .colors .todo {
+    display: inline-block; }
+    .colors .todo .circle {
+      background-color: #B34D76;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
+  .colors .event {
+    display: inline-block; }
+    .colors .event .circle {
+      background-color: #9028B4;
+      height: 3em;
+      width: 3em;
+      border-radius: 50%; }
 
+.button_color :first-child {
+  display: inline-block; }
+  .button_color :first-child a {
+    background-color: #b22426;
+    text-decoration: none;
+    color: #F2EDDD;
+    padding: 0.2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 4px; }
+.button_color :nth-child(2) {
+  display: inline-block; }
+  .button_color :nth-child(2) a {
+    background-color: #851b1c;
+    text-decoration: none;
+    color: #F2EDDD;
+    padding: 0.2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 4px; }
+.button_color :nth-child(3) {
+  display: inline-block; }
+  .button_color :nth-child(3) a {
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #851b1c;
+    padding: 0.2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 4px; }
+.button_color :nth-child(4) {
+  display: inline-block; }
+  .button_color :nth-child(4) a {
+    background-color: #b22426;
+    text-decoration: none;
+    color: #F2EDDD;
+    padding: 0.2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 4px; }
+
+.row {
+  margin-top: 2em;
+  overflow: hidden; }
+
+.col {
+  height: 2em;
+  background-color: #851b1c;
+  margin-bottom: 1em; }
+
+@media (min-width: 650px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: 0; }
+
+  .col-2 {
+    width: 15%;
+    float: left;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: 0; }
+
+  .col-3 {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: 0; }
+
+  .col-4 {
+    width: 32%;
+    float: left;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: 0; }
+
+  .col-5 {
+    width: 40.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: 0; }
+
+  .col-6 {
+    width: 49%;
+    float: left;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: 0; }
+
+  .col-7 {
+    width: 57.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: 0; }
+
+  .col-8 {
+    width: 66%;
+    float: left;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: 0; }
+
+  .col-9 {
+    width: 74.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: 0; }
+
+  .col-10 {
+    width: 83%;
+    float: left;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: 0; }
+
+  .col-11 {
+    width: 91.5%;
+    float: left;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: 0; }
+
+  .col-12 {
+    width: 100%;
+    float: left;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: 0; } }
 h1 {
   font-family: "Bitter", serif;
   font-size: 2.083em; }
@@ -62,3 +205,13 @@ h1 {
 p {
   font-family: "Work Sans", "PT Sans", sans-serif;
   font-size: 1em; }
+
+a {
+  font-family: "Work Sans", "PT Sans", sans-serif; }
+
+.typography h2 {
+  font-family: "Bitter", serif;
+  font-size: 2.083em; }
+.typography h3 {
+  font-family: "Bitter", serif;
+  font-size: 2.083em; }
