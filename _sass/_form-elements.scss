@@ -132,14 +132,78 @@ $color-event:#9028B4;
 }//-closing calendar tag
 
 
-
+//----------------------------------------------------BREAKPOINT 1-------------------------------------------
 @media(min-width:720px){
 
 	.form_wrapper{
 		max-width: 900px;
 		margin:0 auto;
 	}
-}
+
+		.form-nav{
+		box-sizing:border-box;
+		overflow:hidden;
+		h1{
+			margin:2%;
+			padding-bottom:1em;
+		}
+
+		h2{
+			margin:2%;
+		}
+		.desk_nav_display{
+			float:left;
+			
+			background-color: $color-primary;
+			overflow: hidden;
+			margin:2%;
+			width: 358px;
+
+			a{
+				font-family: $font-body;
+				text-decoration: none;
+				display: inline-block;
+				color: $color-text;
+				padding:.2em;
+				background-color:$color-white;
+				display: inline-block;
+				margin: 2%;
+				padding-right:4em;
+			}
+			a:nth-of-type(5){
+				padding-bottom:5em;
+			}
+			p{
+				color: $color-secondary;
+				float:right;
+				margin:2%;
+
+			}
+			button{
+
+				background-color:$color-white;
+				padding: 0.2em;
+				padding-left:1.5em;
+				padding-right:1.5em;
+				border-radius: 4px;
+				color:$color-primary;
+				margin:2%;
+				border: 1px solid $color-text;
+			}
+
+
+		}//end of des_nav_display
+
+
+		p{
+			margin:2%;
+			float:left;
+			width:40%;
+
+				}
+	}//end of form nav tag
+
+}//end media tag
 
 
 

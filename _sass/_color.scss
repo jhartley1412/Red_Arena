@@ -30,23 +30,29 @@ $color-grey:#D6D0D2;
 
 	p{
 		margin:0 auto;
+		margin-bottom:1em;
 	}
 
 
 	div{
-		width: 19%;
+		width: 20%;
+
 	}
 
 
 	.red{
 		display:inline-block;
-		text-align: center;
+		
 		.circle{
 			background-color: $color-primary;
 			height: 3em;
 			width: 3em;
 			border-radius:50%;
-		
+
+
+		}
+		p{
+			
 		}
 	}
 	.red_alt{
@@ -102,16 +108,7 @@ $color-grey:#D6D0D2;
 			border-radius:50%;
 		}
 	}
-	.grey{
-		display:inline-block;
 	
-		.circle{
-			background-color: $color-secondary-alt;
-			height: 3em;
-			width: 3em;
-			border-radius:50%;
-		}
-	}
 
 	//------------------------------------SECONDARY COLORS-----------------------------//
 	.session{
@@ -135,13 +132,22 @@ $color-grey:#D6D0D2;
 	.event{
 		display: inline-block;
 		.circle{
-			background-color: $color-grey;
+			background-color: $color-event;
 			height: 3em;
 			width: 3em;
 			border-radius:50%;
 		}
 	}
-
+	.grey{
+			display:inline-block;
+		
+			.circle{
+				background-color: $color-grey;
+				height: 3em;
+				width: 3em;
+				border-radius:50%;
+			}
+		}
 
 }//closing colors tag//
 
@@ -211,13 +217,153 @@ $color-grey:#D6D0D2;
 }// end of button_color tag
 
 
+
+
+//--------------------------------------------BREAKPOINT 1----------------------------------------
+
 @media(min-width:720px){
 
 	.color_wrapper{
 		max-width: 900px;
 		margin:0 auto;
 	}
-}
+
+	.colors{
+	box-sizing:border-box;
+	overflow:hidden;
+	margin:2%;
+
+	h1{
+		margin:0 auto;
+	}
+
+	p{
+		margin:0 auto;
+		margin-bottom:1em;
+	}
+
+
+	div{
+		width: 20%;
+
+	}
+
+
+	.red{
+		display:inline-block;
+		
+		.circle{
+			background-color: $color-primary;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+
+
+		}
+		p{
+			
+		}
+	}
+	.red_alt{
+		display:inline-block;
+		
+		.circle{
+			background-color: $color-primary-alt;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+			
+
+		}
+	}
+	.blue{
+		display:inline-block;
+	
+		.circle{
+			background-color: $color-attention;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+		}
+	}
+	.purple{
+		display:inline-block;
+	
+		.circle{
+			background-color: $color-text;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+		}
+	}
+	.beige{
+		display:inline-block;
+	
+		.circle{
+			background-color: $color-secondary;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+		}
+	}
+
+	.beige_alt{
+		display:inline-block;
+	
+		.circle{
+			background-color: $color-secondary-alt;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+		}
+	}
+	
+
+	//------------------------------------SECONDARY COLORS-----------------------------//
+	.session{
+		display: inline-block;
+		.circle{
+			background-color: $color-session;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+		}
+	}
+	.todo{
+		display: inline-block;
+		.circle{
+			background-color: $color-todo;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+		}
+	}
+	.event{
+		display: inline-block;
+		.circle{
+			background-color: $color-event;
+			height: 5em;
+			width: 5em;
+			border-radius:50%;
+		}
+	}
+	.grey{
+			display:inline-block;
+		
+			.circle{
+				background-color: $color-grey;
+				height: 5em;
+				width: 5em;
+				border-radius:50%;
+			}
+		}
+
+}//closing colors tag//
+
+
+
+
+}//end media tag
 
 
 
