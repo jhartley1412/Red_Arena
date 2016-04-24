@@ -8,10 +8,12 @@ $line-height:2.083em;
 h1{
 	font-family: $font-header;
 	font-size: $font-size-headers;
+
 }
 p{
 	font-family:$font-body;
 	font-size:$font-size-body;
+	line-height:$line-height;
 }
 
 a{
@@ -19,6 +21,7 @@ a{
 }
 
 .typography{
+	margin:2%;
 	h2{
 		font-family: $font-header;
 		font-size: $font-size-headers;
@@ -26,5 +29,10 @@ a{
 	h3{
 		font-family: $font-header;
 		font-size: $font-size-headers;
+	}
+	p{
+		
+		
+
 	}
 }

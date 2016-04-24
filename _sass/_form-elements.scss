@@ -18,12 +18,20 @@ $color-event:#9028B4;
 .form-nav{
 	box-sizing:border-box;
 	overflow:hidden;
+	h1{
+		margin:2%;
+		padding-bottom:1em;
+	}
 
+	h2{
+		margin:2%;
+	}
 	.desk_nav_display{
 		display: inline-block;
 		background-color: $color-primary;
 		overflow: hidden;
 		margin:2%;
+		width: 358px;
 
 		a{
 			font-family: $font-body;
@@ -59,13 +67,22 @@ $color-event:#9028B4;
 
 
 	}//end of des_nav_display
+
+
+	p{
+		margin:2%;
+			}
 }//end of form nav tag
 
 .calendar{
+	margin:2%;
+	overflow:hidden;
 	.session_form{
 		background-color: $color-session;
 		display: inline-block;
 		padding:1em;
+
+
 
 		p{
 			background-color:$color-text;
@@ -76,6 +93,9 @@ $color-event:#9028B4;
 		background-color: $color-session;
 		display: inline-block;
 		padding:1em;
+		width: 176px;
+		margin-bottom: 2%;
+
 
 		p{
 			background-color:$color-text;
@@ -86,21 +106,40 @@ $color-event:#9028B4;
 		background-color: $color-todo;
 		display: inline-block;
 		padding:1em;
+		width: 176px;
+		margin-bottom: 2%;
 
 		p{
 			background-color:$color-text;
 			color: $color-text;
 		}
 	}
-	a:first-child{
-		color:$color-session;
-	}
-	a:nth-of-type(2){
-		color:$color-todo;
-	}
+	.events{
+		
+		background-color: $color-event;
+		display: inline-block;
+		padding:1em;
+		width: 176px;
+		margin-bottom: 2%;
 
+
+		p{
+			background-color:$color-text;
+			color: $color-text;
+		}
+	}
 
 }//-closing calendar tag
+
+
+
+@media(min-width:720px){
+
+	.form_wrapper{
+		max-width: 900px;
+		margin:0 auto;
+	}
+}
 
 
 

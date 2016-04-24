@@ -1,6 +1,6 @@
 $tot-width: 100%;
 $num-col: 12;
-$gut-width: 2%;
+$gut-width: 5%;
 
 $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
@@ -13,12 +13,13 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
   }
 }
 
-
-.grid{
-  width:50%;
+h1{
+  margin:2%;
 }
 
-
+p{
+  margin:2%;
+}
 
 .row {
   margin-top: 2em;
@@ -27,11 +28,11 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 .col {
   height: 2em;
-  background-color: #851b1c;
+  background-color: $color-primary;
   margin-bottom: 1em;
 }
 
-@media (min-width: 650px){
+@media (min-width: 420px){
   .col {
     margin-bottom: 0;
   }

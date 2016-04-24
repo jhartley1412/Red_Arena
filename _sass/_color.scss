@@ -2,9 +2,11 @@
 
 $color-primary:#851b1c;
 $color-primary-alt:#b22426;
-$color-secondary:#F2EDDD;
+$color-secondary:#FAF8F1;
+$color-secondary-alt:#F3EDDC;
 $color-text:#2F131F;
 $color-attention:#419AE7;
+
 $color-white:#ffffff;
 
 
@@ -13,6 +15,7 @@ $color-white:#ffffff;
 $color-session:#8AD652;
 $color-todo:#B34D76;
 $color-event:#9028B4;
+$color-grey:#D6D0D2;
 
 //------------------------------------PRIMARY COLOR STYLING------------------------//
 
@@ -20,6 +23,14 @@ $color-event:#9028B4;
 	box-sizing:border-box;
 	overflow:hidden;
 	margin:2%;
+
+	h1{
+		margin:0 auto;
+	}
+
+	p{
+		margin:0 auto;
+	}
 
 
 	div{
@@ -29,7 +40,6 @@ $color-event:#9028B4;
 
 	.red{
 		display:inline-block;
-		
 		text-align: center;
 		.circle{
 			background-color: $color-primary;
@@ -82,6 +92,27 @@ $color-event:#9028B4;
 		}
 	}
 
+	.beige_alt{
+		display:inline-block;
+	
+		.circle{
+			background-color: $color-secondary-alt;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+	.grey{
+		display:inline-block;
+	
+		.circle{
+			background-color: $color-secondary-alt;
+			height: 3em;
+			width: 3em;
+			border-radius:50%;
+		}
+	}
+
 	//------------------------------------SECONDARY COLORS-----------------------------//
 	.session{
 		display: inline-block;
@@ -104,7 +135,7 @@ $color-event:#9028B4;
 	.event{
 		display: inline-block;
 		.circle{
-			background-color: $color-event;
+			background-color: $color-grey;
 			height: 3em;
 			width: 3em;
 			border-radius:50%;
@@ -118,9 +149,13 @@ $color-event:#9028B4;
 
 .button_color{
 	margin:2%;
+	overflow:hidden;
+	box-sizing:border-box;
 
 	:first-child{
 		display: inline-block;
+		
+
 		a{
 			background-color:$color-primary-alt;
 			text-decoration: none;
@@ -129,10 +164,12 @@ $color-event:#9028B4;
 			padding-left:1.5em;
 			padding-right:1.5em;
 			border-radius: 4px;
+
 		}
 	}
 	:nth-child(2){
 		display: inline-block;
+		
 		a{
 			background-color:$color-primary;
 			text-decoration: none;
@@ -174,7 +211,13 @@ $color-event:#9028B4;
 }// end of button_color tag
 
 
+@media(min-width:720px){
 
+	.color_wrapper{
+		max-width: 900px;
+		margin:0 auto;
+	}
+}
 
 
 
