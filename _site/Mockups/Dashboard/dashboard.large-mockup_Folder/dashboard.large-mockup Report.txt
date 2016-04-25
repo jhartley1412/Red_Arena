@@ -6,7 +6,7 @@ Name: dashboard.large-mockup.ai
 Color Mode: RGB color
 Color Profile: sRGB IEC61966-2.1
 Ruler Units: pixels
-Artboard Dimensions: 1200 px x 1185.7927 px
+Artboard Dimensions: 1200 px x 1107.7078 px
 Show Images in Outline Mode: OFF
 Highlight Substituted Fonts: OFF
 Highlight Substituted Glyphs: OFF
@@ -38,7 +38,7 @@ NONE
 -----------------------------------------------------------------------------
 Linked Images:
 
-/Users/jc/tiy/Red_Arena/redArena-logo2.png
+/Users/jc/tiy/Red_Arena/Mockups/Dashboard/dashboard.large-mockup_Folder/Links/redArena-logo2.png
 Type: Transparent RGB
 Bits per Pixel: 32
 Channels: 4
@@ -47,7 +47,7 @@ Dimensions: 167.326 by 50.819 points
 Resolution: 1854.579 by 1854.579 pixels per inch
 
 
-/Users/jc/tiy/Red_Arena/redArena-logo2.png
+/Users/jc/tiy/Red_Arena/Mockups/Dashboard/dashboard.large-mockup_Folder/Links/redArena-logo2.png
 Type: Transparent RGB
 Bits per Pixel: 32
 Channels: 4

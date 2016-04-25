@@ -51,6 +51,12 @@
 
 }//end of wrapper tag
 
+footer{
+	background-color:$color-primary;
+	height:3em;
+	margin-top:2em;
+}
+
 
 //------------------------------------------BREAKPOINT 1-------------------------------
 @media(min-width:720px){

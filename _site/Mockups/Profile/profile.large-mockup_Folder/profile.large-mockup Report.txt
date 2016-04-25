@@ -38,7 +38,7 @@ NONE
 -----------------------------------------------------------------------------
 Linked Images:
 
-/Users/jc/Desktop/BettyWhite1
+/Users/jc/tiy/Red_Arena/Mockups/Profile/profile.large-mockup_Folder/Links/BettyWhite1
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
@@ -47,7 +47,7 @@ Dimensions: 221.04 by 202.94 points
 Resolution: 131.271 by 131.271 pixels per inch
 
 
-/Users/jc/Desktop/BettyWhite1
+/Users/jc/tiy/Red_Arena/Mockups/Profile/profile.large-mockup_Folder/Links/BettyWhite1
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
@@ -56,16 +56,7 @@ Dimensions: 221.04 by 202.94 points
 Resolution: 131.271 by 131.271 pixels per inch
 
 
-/Users/jc/tiy/Red_Arena/redArena-logo2.png
-Type: Transparent RGB
-Bits per Pixel: 32
-Channels: 4
-Size: 22038K, 4310 by 1309 pixels
-Dimensions: 167.326 by 50.819 points 
-Resolution: 1854.579 by 1854.579 pixels per inch
-
-
-/Users/jc/Desktop/BettyWhite1
+/Users/jc/tiy/Red_Arena/Mockups/Profile/profile.large-mockup_Folder/Links/BettyWhite1
 Type: RGB
 Bits per Pixel: 24
 Channels: 3
@@ -74,7 +65,7 @@ Dimensions: 221.04 by 202.94 points
 Resolution: 131.271 by 131.271 pixels per inch
 
 
-/Users/jc/tiy/Red_Arena/redArena-logo2.png
+/Users/jc/tiy/Red_Arena/Mockups/Profile/profile.large-mockup_Folder/Links/redArena-logo2.png
 Type: Transparent RGB
 Bits per Pixel: 32
 Channels: 4
@@ -83,10 +74,37 @@ Dimensions: 167.326 by 50.819 points
 Resolution: 1854.579 by 1854.579 pixels per inch
 
 
-/Users/jc/tiy/Red_Arena/redArena-logo2.png
+/Users/jc/tiy/Red_Arena/Mockups/Profile/profile.large-mockup_Folder/Links/redArena-logo2.png
 Type: Transparent RGB
 Bits per Pixel: 32
 Channels: 4
 Size: 22038K, 4310 by 1309 pixels
 Dimensions: 167.326 by 50.819 points 
 Resolution: 1854.579 by 1854.579 pixels per inch
+
+
+/Users/jc/tiy/Red_Arena/Mockups/Profile/profile.large-mockup_Folder/Links/redArena-logo2.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 22038K, 4310 by 1309 pixels
+Dimensions: 167.326 by 50.819 points 
+Resolution: 1854.579 by 1854.579 pixels per inch
+
+
+/Users/jc/tiy/Red_Arena/Mockups/Profile/profile.large-mockup_Folder/Links/redArena-logo2.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 22038K, 4310 by 1309 pixels
+Dimensions: 167.326 by 50.819 points 
+Resolution: 1854.579 by 1854.579 pixels per inch
+
+
+/Users/jc/Desktop/6a00d8341c52fb53ef00e54f3c873e8834-800wi
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 290K, 300 by 330 pixels
+Dimensions: 300 by 330 points 
+Resolution: 72 by 72 pixels per inch

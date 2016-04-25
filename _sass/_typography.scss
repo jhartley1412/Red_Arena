@@ -8,12 +8,14 @@ $line-height:2.083em;
 h1{
 	font-family: $font-header;
 	font-size: $font-size-headers;
+	margin:0 auto;
 
 }
 p{
 	font-family:$font-body;
 	font-size:$font-size-body;
 	line-height:$line-height;
+	margin:0 auto;
 }
 
 a{
@@ -24,15 +26,16 @@ a{
 	margin:2%;
 	h2{
 		font-family: $font-header;
-		font-size: $font-size-headers;
+		
 	}
 	h3{
 		font-family: $font-header;
-		font-size: $font-size-headers;
+		
 	}
-	p{
-		
-		
+.headers{
+	margin-bottom:3em;
+}
 
-	}
+
+	
 }

@@ -36,7 +36,6 @@ $color-event:#9028B4;
 		a{
 			font-family: $font-body;
 			text-decoration: none;
-			display: block;
 			color: $color-text;
 			padding:.2em;
 			background-color:$color-white;
@@ -109,8 +108,10 @@ $color-event:#9028B4;
 		width: 176px;
 		margin-bottom: 2%;
 
+		
+
 		p{
-			background-color:$color-text;
+			background-color:$color-todo;
 			color: $color-text;
 		}
 	}
@@ -130,6 +131,29 @@ $color-event:#9028B4;
 	}
 
 }//-closing calendar tag
+
+
+
+.drop_down{
+	.time{
+		display: block;
+		border:1px solid $color-text;
+		font-size: $font-size-body;
+		font-family:$font-body;
+		width: 4em;
+		text-align: center;
+		margin: auto;
+		padding-left:1em;
+		padding-right:1em;
+
+	}
+	p:first-of-type{
+		background-color:$color-secondary-alt;
+	}
+}
+
+
+
 
 
 //----------------------------------------------------BREAKPOINT 1-------------------------------------------

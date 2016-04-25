@@ -585,7 +585,6 @@ th {
     .form-nav .desk_nav_display a {
       font-family: "Work Sans", "PT Sans", sans-serif;
       text-decoration: none;
-      display: block;
       color: #2F131F;
       padding: .2em;
       background-color: #ffffff;
@@ -636,7 +635,7 @@ th {
     width: 176px;
     margin-bottom: 2%; }
     .calendar .to_do p {
-      background-color: #2F131F;
+      background-color: #B34D76;
       color: #2F131F; }
   .calendar .events {
     background-color: #9028B4;
@@ -647,6 +646,19 @@ th {
     .calendar .events p {
       background-color: #2F131F;
       color: #2F131F; }
+
+.drop_down .time {
+  display: block;
+  border: 1px solid #2F131F;
+  font-size: 1em;
+  font-family: "Work Sans", "PT Sans", sans-serif;
+  width: 4em;
+  text-align: center;
+  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em; }
+.drop_down p:first-of-type {
+  background-color: #F3EDDC; }
 
 @media (min-width: 720px) {
   .form_wrapper {
@@ -800,12 +812,14 @@ p {
       margin-right: 0; } }
 h1 {
   font-family: "Bitter", serif;
-  font-size: 2.083em; }
+  font-size: 2.083em;
+  margin: 0 auto; }
 
 p {
   font-family: "Work Sans", "PT Sans", sans-serif;
   font-size: 1em;
-  line-height: 2.083em; }
+  line-height: 2.083em;
+  margin: 0 auto; }
 
 a {
   font-family: "Work Sans", "PT Sans", sans-serif; }
@@ -813,11 +827,11 @@ a {
 .typography {
   margin: 2%; }
   .typography h2 {
-    font-family: "Bitter", serif;
-    font-size: 2.083em; }
+    font-family: "Bitter", serif; }
   .typography h3 {
-    font-family: "Bitter", serif;
-    font-size: 2.083em; }
+    font-family: "Bitter", serif; }
+  .typography .headers {
+    margin-bottom: 3em; }
 
 .wrapper .site-nav {
   box-sizing: border-box;
@@ -837,6 +851,11 @@ a {
       text-decoration: none;
       font-size: 1em;
       font-family: "Bitter", serif; }
+
+footer {
+  background-color: #851b1c;
+  height: 3em;
+  margin-top: 2em; }
 
 @media (min-width: 720px) {
   .site-nav {
