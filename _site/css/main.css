@@ -578,7 +578,8 @@ h1 {
         border-radius: 50%; } }
 .form-nav {
   box-sizing: border-box;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 2em; }
   .form-nav h1 {
     margin: 2%;
     padding-bottom: 1em; }
@@ -618,7 +619,7 @@ h1 {
     margin: 2%; }
 
 .calendar {
-  margin: 2%;
+  margin-bottom: 2em;
   overflow: hidden; }
   .calendar .session_form {
     background-color: #8AD652;
@@ -672,6 +673,12 @@ h1 {
     padding-right: 1em; }
   .drop_down p:first-of-type {
     background-color: #F3EDDC; }
+
+.links {
+  margin-bottom: 2em; }
+  .links h1 {
+    color: #419AE7;
+    text-decoration: underline; }
 
 .icons .fa {
   font-size: 4em; }
@@ -888,6 +895,8 @@ a {
       text-decoration: none;
       font-size: 1em;
       font-family: "Work Sans", "PT Sans", sans-serif; }
+.wrapper .home_main {
+  margin: 2%; }
 
 .site-title {
   text-decoration: none;
