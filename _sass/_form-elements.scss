@@ -33,6 +33,7 @@ $color-event:#9028B4;
 		margin:2%;
 		width: 358px;
 
+
 		a{
 			font-family: $font-body;
 			text-decoration: none;
@@ -41,7 +42,7 @@ $color-event:#9028B4;
 			background-color:$color-white;
 			display: inline-block;
 			margin: 2%;
-			padding-right:4em;
+			padding-right:3em;
 		}
 		a:nth-of-type(5){
 			padding-bottom:5em;
@@ -111,7 +112,7 @@ $color-event:#9028B4;
 		
 
 		p{
-			background-color:$color-todo;
+			background-color:$color-text;
 			color: $color-text;
 		}
 	}
@@ -122,6 +123,11 @@ $color-event:#9028B4;
 		padding:1em;
 		width: 176px;
 		margin-bottom: 2%;
+
+		a{
+			background-color:$color-event;
+			color: $color-text;
+		}
 
 
 		p{
@@ -188,7 +194,7 @@ $color-event:#9028B4;
 				text-decoration: none;
 				display: inline-block;
 				color: $color-text;
-				padding:.2em;
+				padding:0em;
 				background-color:$color-white;
 				display: inline-block;
 				margin: 2%;

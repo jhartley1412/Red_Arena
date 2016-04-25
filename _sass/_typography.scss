@@ -36,6 +36,30 @@ a{
 	margin-bottom:3em;
 }
 
-
+.paragraphs{
+	line-height: $line-height;
+}
 	
 }
+
+@media(min-width:720px){
+
+.typography{
+	width:75%;
+	margin:0 auto;
+	
+
+	.paragraphs{
+		p{
+			line-height: $line-height;
+		}
+
+	}
+}
+
+}
+
+
+
+
+

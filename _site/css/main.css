@@ -590,7 +590,7 @@ th {
       background-color: #ffffff;
       display: inline-block;
       margin: 2%;
-      padding-right: 4em; }
+      padding-right: 3em; }
     .form-nav .desk_nav_display a:nth-of-type(5) {
       padding-bottom: 5em; }
     .form-nav .desk_nav_display p {
@@ -635,7 +635,7 @@ th {
     width: 176px;
     margin-bottom: 2%; }
     .calendar .to_do p {
-      background-color: #B34D76;
+      background-color: #2F131F;
       color: #2F131F; }
   .calendar .events {
     background-color: #9028B4;
@@ -643,6 +643,9 @@ th {
     padding: 1em;
     width: 176px;
     margin-bottom: 2%; }
+    .calendar .events a {
+      background-color: #9028B4;
+      color: #2F131F; }
     .calendar .events p {
       background-color: #2F131F;
       color: #2F131F; }
@@ -684,7 +687,7 @@ th {
         text-decoration: none;
         display: inline-block;
         color: #2F131F;
-        padding: .2em;
+        padding: 0em;
         background-color: #ffffff;
         display: inline-block;
         margin: 2%;
@@ -714,9 +717,13 @@ h1 {
 p {
   margin: 2%; }
 
+.grid {
+  margin: 2%; }
+
 .row {
   margin-top: 2em;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 2%; }
 
 .col {
   height: 2em;
@@ -810,6 +817,10 @@ p {
     margin-right: 5%; }
     .col-12:last-child {
       margin-right: 0; } }
+@media (min-width: 720px) {
+  .grid {
+    width: 55%;
+    margin: 0 auto; } }
 h1 {
   font-family: "Bitter", serif;
   font-size: 2.083em;
@@ -832,7 +843,15 @@ a {
     font-family: "Bitter", serif; }
   .typography .headers {
     margin-bottom: 3em; }
+  .typography .paragraphs {
+    line-height: 2.083em; }
 
+@media (min-width: 720px) {
+  .typography {
+    width: 75%;
+    margin: 0 auto; }
+    .typography .paragraphs p {
+      line-height: 2.083em; } }
 .wrapper .site-nav {
   box-sizing: border-box;
   overflow: hidden;
@@ -850,7 +869,11 @@ a {
       color: #F2EDDD;
       text-decoration: none;
       font-size: 1em;
-      font-family: "Bitter", serif; }
+      font-family: "Work Sans", "PT Sans", sans-serif; }
+
+.site-title {
+  text-decoration: none;
+  color: #F2EDDD; }
 
 footer {
   background-color: #851b1c;

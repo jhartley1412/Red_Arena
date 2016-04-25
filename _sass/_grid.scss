@@ -21,9 +21,16 @@ p{
   margin:2%;
 }
 
+.grid{
+  margin:2%;
+
+}
+
+
 .row {
   margin-top: 2em;
   overflow: hidden;
+  margin:2%;
 }
 
 .col {
@@ -77,3 +84,25 @@ p{
      @include grid(12);
   }
 }
+
+
+@media(min-width:720px){
+
+.grid{
+width:55%;
+margin:0 auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
