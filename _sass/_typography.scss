@@ -10,6 +10,7 @@ h1{
 	font-size: $font-size-headers;
 	margin:0 auto;
 
+
 }
 p{
 	font-family:$font-body;
@@ -34,6 +35,10 @@ a{
 	}
 .headers{
 	margin-bottom:3em;
+
+	h1{
+		margin-bottom: 1em;
+	}
 }
 
 .paragraphs{

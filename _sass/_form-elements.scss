@@ -141,6 +141,8 @@ $color-event:#9028B4;
 
 
 .drop_down{
+
+	margin-bottom:2em;
 	.time{
 		display: block;
 		border:1px solid $color-text;
@@ -158,7 +160,15 @@ $color-event:#9028B4;
 	}
 }
 
+.icons{
 
+	.fa{
+		font-size: 4em;;
+	}
+	p{
+		margin-bottom:2em;
+	}
+}
 
 
 

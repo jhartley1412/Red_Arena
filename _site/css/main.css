@@ -426,7 +426,8 @@ th {
       background-color: #9028B4;
       height: 3em;
       width: 3em;
-      border-radius: 50%; }
+      border-radius: 50%;
+      border: none; }
   .colors .grey {
     display: inline-block; }
     .colors .grey .circle {
@@ -435,10 +436,14 @@ th {
       width: 3em;
       border-radius: 50%; }
 
+h1 {
+  margin: 2%; }
+
 .button_color {
   margin: 2%;
   overflow: hidden;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-bottom: 3em; }
   .button_color :first-child {
     display: inline-block; }
     .button_color :first-child a {
@@ -474,13 +479,16 @@ th {
 :nth-child(4) {
   display: inline-block; }
   :nth-child(4) a {
-    background-color: #b22426;
+    background-color: #F3EDDC;
     text-decoration: none;
-    color: #FAF8F1;
+    color: #2F131F;
     padding: 0.2em;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    border-radius: 4px; }
+    border-radius: 4px;
+    border: 1px solid #2F131F; }
+  :nth-child(4) .button {
+    margin-right: 2em; }
 
 @media (min-width: 720px) {
   .color_wrapper {
@@ -650,18 +658,25 @@ th {
       background-color: #2F131F;
       color: #2F131F; }
 
-.drop_down .time {
-  display: block;
-  border: 1px solid #2F131F;
-  font-size: 1em;
-  font-family: "Work Sans", "PT Sans", sans-serif;
-  width: 4em;
-  text-align: center;
-  margin: auto;
-  padding-left: 1em;
-  padding-right: 1em; }
-.drop_down p:first-of-type {
-  background-color: #F3EDDC; }
+.drop_down {
+  margin-bottom: 2em; }
+  .drop_down .time {
+    display: block;
+    border: 1px solid #2F131F;
+    font-size: 1em;
+    font-family: "Work Sans", "PT Sans", sans-serif;
+    width: 4em;
+    text-align: center;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em; }
+  .drop_down p:first-of-type {
+    background-color: #F3EDDC; }
+
+.icons .fa {
+  font-size: 4em; }
+.icons p {
+  margin-bottom: 2em; }
 
 @media (min-width: 720px) {
   .form_wrapper {
@@ -843,6 +858,8 @@ a {
     font-family: "Bitter", serif; }
   .typography .headers {
     margin-bottom: 3em; }
+    .typography .headers h1 {
+      margin-bottom: 1em; }
   .typography .paragraphs {
     line-height: 2.083em; }
 
@@ -862,7 +879,8 @@ a {
     padding-bottom: .5em;
     margin: 0 auto; }
     .wrapper .site-nav .trigger .site-title {
-      text-align: left; }
+      text-align: left;
+      padding-right: 1em; }
     .wrapper .site-nav .trigger .page-link {
       margin: 0 auto;
       padding: 1em;
